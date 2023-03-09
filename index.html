@@ -1,37 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
-
 <head>
   <title>Sean Lyons - About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    .content {
+    body {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 1.2em;
-      margin: auto;
-      max-width: 1000px;
-      min-width: 750px
-    }
-
-    .name-text {
       text-align: center;
     }
-
-    .column4 {
-      text-align: center;
-      float: left;
-      width: 25%;
-    }
-
-    .column3 {
-      text-align: center;
-      float: left;
-      width: 33.33%;
-    }
-
-    div {
-      padding-bottom: 20px;
-    }
-
     a:visited {
       color: blue;
     }
@@ -39,53 +16,39 @@
 </head>
 
 <body>
-  <div class="content">
-    <div class="name-text">
-      <h1>Sean Lyons</h1>
-      <p>Catchy one-liner goes here</p>
-    </div>
+  <div class="container">
+    <h1>Sean Lyons</h1>
     <div>
-      <div class="column4">
-        <a href="https://about.slyons.dev">this page</a>
-      </div>
-      <div class="column4">
-        <a href="https://about.slyons.dev">this page</a>
-      </div>
-      <div class="column4">
-        <a href="https://about.slyons.dev">this page</a>
-      </div>
-      <div class="column4">
-        <a href="https://about.slyons.dev">this page</a>
-      </div>
-    </div>
-
-    <img src="media/headshot.png" alt="Headshot of Sean Lyons" style="width: 100%;">
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed pellentesque massa, egestas mattis sem.
-      Aliquam in ultrices justo, vitae imperdiet arcu. Nulla eget vulputate lorem. Donec sagittis enim dolor, faucibus
-      mollis nisl rutrum ac. Curabitur quis aliquam dolor. Sed tellus erat, cursus a arcu et, imperdiet rhoncus enim.
-      Vestibulum lorem dolor, sodales et tempus nec, ullamcorper id leo. Nulla ac pulvinar turpis. Aenean ac quam sit
-      amet arcu tristique tempor. Etiam sed lectus ullamcorper, vehicula sem at, feugiat massa. Pellentesque habitant
-      morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-
-    <div>
-      <div class="column3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed pellentesque massa, egestas mattis sem.
-          Aliquam in ultrices justo, vitae imperdiet arcu. Nulla eget vulputate lorem. Donec sagittis enim dolor,
-          faucibus mollis nisl rutrum ac.
-      </div>
-      <div class="column3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed pellentesque massa, egestas mattis sem.
-          Aliquam in ultrices justo, vitae imperdiet arcu. Nulla eget vulputate lorem. Donec sagittis enim dolor,
-          faucibus mollis nisl rutrum ac.
-      </div>
-      <div class="column3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed pellentesque massa, egestas mattis sem.
-          Aliquam in ultrices justo, vitae imperdiet arcu. Nulla eget vulputate lorem. Donec sagittis enim dolor,
-          faucibus mollis nisl rutrum ac.
+      <div class="row gy-3 gx-5">
+        <div class="col">
+          <a href="https://github.com/sleaux" target="_blank" rel="noopener noreferrer">github</a>
+        </div>
+        <div class="col">
+          <a href="https://www.linkedin.com/in/sean-lyons-40840a213" target="_blank" rel="noopener noreferrer">linkedin</a>
+        </div>
+        <div class="col">
+          <a href="https://about.slyons.dev" target="_blank" rel="noopener noreferrer">link of the week</a>
+        </div>
+        <img src="media/headshot.png" alt="Headshot of Sean Lyons">
+        <p style="text-align:justify">Hi, I'm Sean. I am a Boston, USA based software engineer focused on compiler
+          testing and fuzz testing. I aspire to advance the state of the art of fuzz testing to enable more intelligent,
+          more effecive testing of systems where correctness and reliability are critical. I have a grand total of 3
+          (Count them, 3) personality traits, which you can find below. </p>
+        <div class="col">
+          <p style="text-align:justify">Engineer - I was an engineer from birth. It all started with LEGOS, which
+            quickly became robotics, studying mechanical engineering in college, and most recently settling in my
+            current occupation as a software engineer. I tinker with microcontrollers, 3D printers, and the occasional
+            family printer that has stopped working.</p>
+        </div>
+        <div class="col">
+          <p style="text-align:justify">Cat - I have a cat. Despite the fact that having pets is incredibly ordinary,
+            owning a singular cat has somehow morphed into a defining characterist of myself.</p>
+        </div>
+        <div class="col">
+          <p style="text-align:justify">What was the third one supposed to be? I forgot. I'll have to ask my partner who
+            would love to remind me. Maybe I should write "Forgetfull" instead of whatever it was suppose to be.</p>
+        </div>
       </div>
     </div>
-  </div>
 </body>
-
 </html>
